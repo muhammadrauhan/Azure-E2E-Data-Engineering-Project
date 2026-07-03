@@ -1,2 +1,7 @@
 # Azure-E2E-Data-Engineering-Project
-Azure End-to-End Data Engineering project using Azure Data Factory, Azure Data Lake, Databricks, Synapse Analytics &amp; Power BI to build an automated ETL pipeline. Transforms on-prem SQL Server data into interactive sales and customer gender analytics dashboards with daily scheduled data refresh.
+
+## 📌 Project Overview
+This **Azure End-to-End Data Engineering Project** demonstrates how to design and implement a modern, production-style data engineering pipeline on Microsoft Azure. The project focuses on building an automated ETL/ELT workflow that extracts customer and sales data from an on-premises SQL Server database, ingests it into Azure, performs scalable data transformations, and delivers business-ready insights through an interactive Power BI dashboard.
+
+## Architecture
+

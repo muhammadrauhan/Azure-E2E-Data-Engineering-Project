@@ -18,6 +18,10 @@ This **Azure End-to-End Data Engineering Project** demonstrates how to design an
 - **Azure Active Directory (Microsoft Entra ID):** Identity and access management service used for authentication, authorization, and secure resource access.
 - **Azure Key Vault:** Secure secrets management service for storing and protecting credentials.
 
+## Configuration
+I used **Unity Catalog (Storage Credential & External Locations)** to access the data in my Azure Data Lake Storage Gen2 from Databricks.\
+To set up Unity Catalog, follow this tutorial [Setup/Configure Unity Catalog](https://youtu.be/kRfNXFh9T3U?si=Jr8s7Jgmmp47Qkk9)
+
 ## What You'll Learn
 1. Configure Azure Databricks and securely access data in Azure Storage.
 2. Process and transform data using Databricks notebooks (`bronze`, `silver`, `gold`) called Medallion Architecture.

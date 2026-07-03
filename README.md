@@ -18,3 +18,13 @@ This **Azure End-to-End Data Engineering Project** demonstrates how to design an
 - **Azure Active Directory (Microsoft Entra ID):** Identity and access management service used for authentication, authorization, and secure resource access.
 - **Azure Key Vault:** Secure secrets management service for storing and protecting credentials.
 
+## What You'll Learn
+1. Configure Azure Databricks and securely access data in Azure Storage.
+2. Process and transform data using Databricks notebooks (`bronze`, `silver`, `gold`) called Medallion Architecture.
+3. Automate data pipelines with Azure Data Factory.
+4. Query and optimize data in Synapse Analytics for analytics.
+5. Create a dashboard using Power BI.
+ 
+## Prerequisites
+- Azure account (free trial available).
+- Basic understanding of data engineering concepts.

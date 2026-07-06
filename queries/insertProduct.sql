@@ -1,0 +1,24 @@
+USE [AdventureWorksLT2022]
+GO
+
+INSERT INTO [SalesLT].[Product]
+           ([Name]
+           ,[ProductNumber]
+           ,[Color]
+           ,[StandardCost]
+           ,[ListPrice]
+           ,[Size]
+           ,[Weight]
+           ,[ProductCategoryID]
+           ,[ProductModelID]
+           ,[SellStartDate]
+           ,[SellEndDate]
+           ,[DiscontinuedDate]
+           ,[ThumbNailPhoto]
+           ,[ThumbnailPhotoFileName]
+           ,[rowguid]
+           ,[ModifiedDate])
+     VALUES
+--           ('Product Name', 'PN-001', 'Red', 50.00, 100.00, 'M', 1.5, 3, 12, '2026-05-25', NULL, NULL, 0x, 'thumb.jpg', NEWID(), GETDATE())
+     	('Product Name2', 'PN-002', 'Red', 50.00, 100.00, 'M', 1.5, 3, 12, '2026-05-25', NULL, NULL, 0x, 'thumb.jpg', NEWID(), GETDATE())
+GO
